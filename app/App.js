@@ -67,7 +67,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#5c80bc',
   },
   titleWrapper: {
     marginTop: 80,
@@ -81,19 +81,19 @@ const styles = StyleSheet.create({
   },
   searchBox: {
     flexDirection: 'row',
-    maxWidth: 350,
+    maxWidth: 380,
     alignItems: 'center',
     justifyContent: 'space-between',
     backgroundColor: '#2f3640',
     borderRadius: 25,
-    paddingHorizontal: 10,
-    paddingVertical: 5,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
   },
   searchButton: {
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: '#e5f2ff',
+    backgroundColor: '#4d5061',
     alignItems: 'center',
     justifyContent: 'center',
   },
